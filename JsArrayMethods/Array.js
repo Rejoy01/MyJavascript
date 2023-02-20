@@ -21,3 +21,26 @@ fruits[0] = "kiwi"
 //The length property provides an easy way to append a new element to an array:
  
 fruits[fruits.length] = "strawberry"
+
+// The concat() method creates a new array by merging (concatenating) existing arrays:
+
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+
+// const myChildren = myGirls.concat(myBoys);
+
+// merging an array with values
+const arr1 = ["Emil", "Tobias", "Linus"];
+const myChildren = arr1.concat("Peter"); 
+
+// splice method 
+
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+
+// add new element ast index 2 and parameter defines how many elements should be removed
+
+//the slice() method can take two arguments like slice(1, 3).
+
+const fruits2 = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits2.slice(1, 3);
