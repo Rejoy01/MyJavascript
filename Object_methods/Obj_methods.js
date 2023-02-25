@@ -29,3 +29,24 @@ console.log("there wont be any change in parent object------"+ obj.speak());
 
 let DeepCopyObj = JSON.parse(JSON.stringify(obj));
 console.log( DeepCopyObj);
+
+//Object.create
+// object.create you can choose what will be the prototype of your new object
+
+let createObj = Object.create(obj);
+console.log( createObj) // {}
+
+createObj.name = "Rehana"
+console.log(createObj.speak())
+// My Name is Rehana and this is year 2023
+
+//Object.entries()
+
+// returns an array of key-value pairs of object enumerable properties
+
+let person = {name:"rejo",age:20}
+let entries = Object.entries(person)
+console.log(entries) //
+
+//[ [ 'name', 'rejo' ], [ 'age', 20 ] ]
+
