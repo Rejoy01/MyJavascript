@@ -50,3 +50,8 @@ console.log(entries) //
 
 //[ [ 'name', 'rejo' ], [ 'age', 20 ] ]
 
+//Object.keys()
+// this function picks only keys of the object and returns an array
+let keys = Object.keys(person)
+console.log(keys) //
+
