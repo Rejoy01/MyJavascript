@@ -46,3 +46,14 @@ const arrayFiltered =  array.filter((ele)=>{
 console.log(array);
 console.log(`${array}---arrayFiltered -----${arrayFiltered}`)
 // 4,5,6
+
+// reduce method runs a function on each array element to produce a single value
+const numbers = [45,4,9,16,25]
+
+let sum = numbers.reduce((total,value)=>{
+    return total + value
+})
+console.log(sum); //99
+
+// JS Array every()
+
