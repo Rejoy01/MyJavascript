@@ -20,7 +20,7 @@ console.log(newArray)
 
 
 for(var i = 0 ; i<array.length;i++){
-  if (i == 2){
+  if (array[i] == 2){
     console.log("from for loop method----match found")
   }
 }
