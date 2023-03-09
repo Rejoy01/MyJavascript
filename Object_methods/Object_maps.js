@@ -45,3 +45,18 @@ console.log(fruits2.has("apple"))
 //returns values
 
 fruits2.values()
+
+// we can create a map by using object as a key
+const apples = {name: "apples",}
+const banana = {name: "banana",}
+
+// creaete a map 
+const fruits3 = new Map();
+
+//add new elements to the map
+fruits3.set(apples,500);
+fruits3.set(banana,500);
+
+console.log(fruits3)
+
+console.log(fruits3.get(banana));
