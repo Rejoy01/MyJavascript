@@ -47,12 +47,15 @@ let newText2 = newText.replace(/BLueberry/i,"strawberry")
 console.log(newText2); //strawberry, Banana, Kiwi
 
 //To replace all matches, use a regular expression with a /g flag (global match):
-let word = "hi hello world hi hello world"
+let word = "hi hello world hI hello world"
 let newWord = word.replace(/world/g,"Rejo")
 console.log(newWord);//hi hello Rejo hi hello Rejo
 
 let text1 = "Hello World"
 
+// using gi will resolve the problem of casesensitive
+let newWord2 = word.replaceAll(/hi/gi,"hey")
+console.log(newWord2);
 
 
 
