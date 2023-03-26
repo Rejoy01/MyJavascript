@@ -27,3 +27,4 @@ const person2 = {
 
 person2.lang = 'Hindi'
 console.log(person2.language);
+console.log(person2);
