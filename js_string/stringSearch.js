@@ -51,13 +51,21 @@ console.log(newArr.length +" "+ newArr);
 // The matchAll() method returns an iterator containing the results of matching a string against a string (or a regular expression).
 let text3 = "I love cats. Cats are very easy to love. Cats are very popular."
 
-const iterator = text3.matchAll(/cats/gi)
-console.log(Array.from(iterator)); 
+// const iterator = text3.matchAll(/cats/gi)
+// console.log(Array.from(iterator)); 
 
 
 // includes () method
 
+// include () method is case sensitive
+
 let newText = "Hello world , welcome to the universe"
 
-console.log(text3.includes("world")); 
+console.log(newText.includes("world")); 
+// starting positioon can be specified
+console.log(newText.includes("world",2));
 
+// startsWith() and endsWith() are casesenitive
+console.log(newText.endsWith("world", 11)); 
+
+console.log(text.startsWith("world")); 
