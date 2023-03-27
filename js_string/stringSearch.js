@@ -69,3 +69,16 @@ console.log(newText.includes("world",2));
 console.log(newText.endsWith("world", 11)); 
 
 console.log(text.startsWith("world")); 
+
+
+//charAt() method
+
+console.log(newText.charAt(0));
+//console.log(newText.charAt(0)); doesn't throw error
+
+//convert string to array  using split method
+let Name = "Arjun,rahul,Ram,Mohan"
+
+let arr = Name.split(",")
+console.log(arr);
+
