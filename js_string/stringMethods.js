@@ -23,6 +23,7 @@ console.log(text2.slice(7,13)); //first pos 0 second pos 1
 
 let part = text2.substring(-9,5)
 console.log(part);
+// strings are immutable
 
 //apple
 
@@ -58,4 +59,32 @@ let newWord2 = word.replaceAll(/hi/gi,"hey")
 console.log(newWord2);
 
 
+//convert to Uppercase
+let wordUpper = word.toUpperCase()
+console.log(wordUpper);
 
+//convert to lowercase
+let wordLower = word.toLowerCase()
+console.log(wordLower);
+
+
+// add two string
+let text3 = "hi"
+let text4 = "Rejo"
+
+
+let res = text3.concat(" ",text4)
+
+console.log(res);
+
+// Trim free spaces 
+let test = "     hello world       "
+console.log(test.trim());
+console.log(test.trimStart());
+console.log(test.trimEnd());
+
+// Pad method
+let txt = "3"
+
+console.log(txt.padEnd(4,"w"));
+console.log(txt.padStart(3,"W"));
