@@ -11,7 +11,7 @@ console.log(text.lastIndexOf("locate"));
 console.log(text.indexOf("locate"));
 //7
 
-// lastIndex method seacrh backwards from end to beginning secon para 15  seacrh starts at pos 15 and seacrhes to beginning
+// lastIndex method seacrh backwards from end to beginning secon para 15  search starts at pos 15 and seacrhes to beginning
 console.log(text.lastIndexOf("locate",15));
 
 //search() method 
@@ -82,3 +82,4 @@ let Name = "Arjun,rahul,Ram,Mohan"
 let arr = Name.split(",")
 console.log(arr);
 
+//[ 'Arjun', 'rahul', 'Ram', 'Mohan' ]
