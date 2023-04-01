@@ -55,5 +55,35 @@ let sum = numbers.reduce((total,value)=>{
 })
 console.log(sum); //99
 
-// JS Array every()
+// JS Array SOME ()method
 
+var employee= [
+[01,"ram","10 years",35],
+[02,"anil","2 years",25],
+[03,"nikhil","4 years",28],
+[04,"nikhil","4 years",25]
+]
+
+let res = employee.some((emp)=>emp[1]=="anil")
+let neWres = employee.some((emp)=>emp[1]=="george") //false
+
+console.log(res);
+// return true
+
+//Find Method Returns the value that satisfies the condition
+let Res = employee.find((emp)=>emp[0]=== 03);
+
+console.log(Res);
+// [ 3, 'nikhil', '4 years', 28 ] it
+
+// find index  indexOf () Method is used
+// if there is no matching element returns -1
+
+let num= [1,2,3,4,5,6]
+console.log(num.indexOf(6)); // 5
+
+let NUm = [10,20,30,40]
+
+let FIndres = NUm.findIndex((num)=> num > 20)
+
+console.log(FIndres);

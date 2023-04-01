@@ -76,3 +76,46 @@ console.log(fruits.slice(1));
 console.log(fruits.slice(1,4));
 //[ 'mango', 'camery', 'Apple' ]
 
+//SORT method
+
+console.log(fruits.sort());
+
+// SORT method in numbers
+
+let num = [100,2,8,9,3,5,4]
+
+
+
+// MERGE method in array flat()
+// convert nested array to single array
+
+let NewNum = [
+    [10,20,30],
+    [09,89,20],
+    [10,90,20],
+]
+
+console.log(NewNum.flat());
+/* [
+  10, 20, 30,  9, 89,
+  20, 10, 90, 20
+]
+*/
+
+// Merging two array using Spread operator
+
+let st1 = [1,24,5,4]
+let st2 = [3,5,68,9]
+
+let mergedArray = [...st1, ...st2]
+console.log(mergedArray);
+
+// Deep Copy using Spread operator
+
+let newArray = [...st1]
+newArray[0] = 100
+
+console.log(newArray);// [ 100, 24, 5, 4 ]
+
+console.log(st1);// [ 1, 24, 5, 4 ]
+
