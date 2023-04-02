@@ -118,4 +118,4 @@ newArray[0] = 100
 console.log(newArray);// [ 100, 24, 5, 4 ]
 
 console.log(st1);// [ 1, 24, 5, 4 ]
-
+// spread operator
