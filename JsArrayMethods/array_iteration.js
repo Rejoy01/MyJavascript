@@ -87,3 +87,24 @@ let NUm = [10,20,30,40]
 let FIndres = NUm.findIndex((num)=> num > 20)
 
 console.log(FIndres);
+
+//Every Method()
+// check every element if condition is true for every element return true
+const a = [1,2,3,4,5,];
+
+if (a.every((x)=>x<7)){
+  console.log("less than 7");
+}else{
+  console.log("bigger than 7");
+}
+//less than 7
+
+// some method()
+// check every element if condition is true for atleast one element return true
+
+if(a.some((x)=>x>5)){
+  console.log("bigger than 5 is found");
+}else{
+  console.log("No Element bigger than 5 was found");
+}
+//No Element bigger than 5 was found
