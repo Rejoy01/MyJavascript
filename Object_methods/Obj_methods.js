@@ -55,3 +55,4 @@ console.log(entries) //
 let keys = Object.keys(person)
 console.log(keys) //
 
+//new object
