@@ -14,12 +14,13 @@ function myFunction(){
 
 // ----- SetInterval() -----
 
-const myFunction1 = ()=>{
+const myFunction1 = () => {
     let d = new Date()
     console.log(`${d.getHours()} : ${d.getMinutes()} : ${d.getSeconds()}`);
 }
 
 // setInterval(myFunction1, 2000);
+
 
 // In the example above, myFunction is used as a callback.
 

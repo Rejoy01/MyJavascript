@@ -1,0 +1,1 @@
+setInterval(myFunction1, 2000);

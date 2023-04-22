@@ -6,7 +6,7 @@ let arr2 = [60,70,80];
 
 
             //arguments
-function sum(value1,value2,display){ //function which receives callback fn is hiher Order function
+function sum(value1,value2,display){ //function which receives callback fn is higher Order function
     console.log('this is sum fn');
     let x = value1 + value2;
     display(x)
