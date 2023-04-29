@@ -21,3 +21,23 @@ const NewPerson = new Person("Rejo","wilson",24,"blue")
 console.log(NewPerson.nationality);
 
 //English
+
+let swift = {
+  name:"swift",
+  price:"8 lakhs",
+  getPrice:function(){
+    console.log(this.price);
+  }
+}
+
+let glanza = {
+  name:"glanza",
+  price:"10 lakhs"
+}
+
+// prototype inheritance
+glanza.__proto__ = swift
+
+swift.getPrice()
+
+glanza.getPrice()
