@@ -31,3 +31,17 @@ const myCar = new Car("FORD",2014)
 console.log("my car is "+ myCar.age()+" years old");
 
 //my car is 9 years old
+
+class User{
+    setName(name){
+        this.name = name
+    }
+    getName(){
+        return this.name
+    }
+}
+
+let obj = new User();
+
+obj.setName("arun");
+console.log(obj.getName());
