@@ -18,11 +18,11 @@ let promise = ()=>{
 
 console.log(promise());
 
-// promise().then((result)=>{
-//     console.log(result);
-// }, function(err){
-//     console.log(err.message);
-// })
+promise().then((result)=>{
+    console.log(result);
+}, function(err){
+    console.log(err.message);
+})
 
 // fetch("https://jsonplaceholder.typicode.com/users")
 // .then((data)=>data.json())
@@ -55,4 +55,5 @@ Promise.any([
     promis1(),
     promis2(),
     promis3()
-]).then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
+]).then((res)=>{console.log(res);})
+.catch((err)=>{console.log(err);})
