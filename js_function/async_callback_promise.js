@@ -57,3 +57,5 @@ Promise.any([
     promis3()
 ]).then((res)=>{console.log(res);})
 .catch((err)=>{console.log(err);})
+
+// promise is better than call back

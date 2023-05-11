@@ -43,3 +43,5 @@ for (const x of letters.values()){
 }  
 console.log(txt);
 // a b c
+let C = "rejo";
+
