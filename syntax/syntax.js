@@ -4,7 +4,7 @@
 //10
 //10.11
 
-// steings are text , written within double or single quotes 
+// strings are text , written within double or single quotes 
 
 "jhon doe"
 
