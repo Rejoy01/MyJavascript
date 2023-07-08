@@ -1,6 +1,6 @@
 // javascript variables are declared in 4 ways :
 
-// variables are containers for storing variables
+// variables are containers for storing Data
 
 // automatically 
 // using var 
