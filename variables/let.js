@@ -10,6 +10,9 @@
 
 
 // variables defined with let have Block Scope
+
+// variables with let and Const keyword are not hoisted 
+
 // Variables defined inside a {BlockScope} cannot be accessed outside the block
 
 {
