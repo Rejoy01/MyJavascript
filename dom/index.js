@@ -13,7 +13,7 @@ document.querySelector(".text").innerHTML = "Updated Content"
 // select all elements of a tag
 //document.querySelectorAll("a").innerHTML = "updated Link"
 
-//select all a tag with classname demo
+//select all a tag with classname texts
 let aTags = document.querySelectorAll("a.texts")
 
 console.log(aTags);
