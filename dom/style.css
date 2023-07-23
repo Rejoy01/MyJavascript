@@ -1,0 +1,13 @@
+/* eg pseudo Class */
+
+#google:hover{
+    color: red;
+}
+
+#google:visited{
+    color: green;
+}
+#submit:hover{
+    color: red;
+    background-color: green;
+}
