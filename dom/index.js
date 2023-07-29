@@ -1,8 +1,10 @@
-const { log } = require("console")
+// const { log } = require("console")
 
 // dom method to select html element using id
 document.getElementById("title").innerHTML = "Title From Script"
 
+
+  
 let res = document.getElementsByClassName("classValue")
 //accessing elements with same class name
 res[0].innerHTML = "sub heading from script"
@@ -76,3 +78,24 @@ function registerValidation(){
     return false
     
 }
+
+document.getElementById("submit").style.color = "white";
+document.getElementById("submit").style.background = "red";
+
+function Clickme(){
+    document.getElementById("change").innerHTML="p element is clicked"
+}
+
+function Mouseover(){
+    document.getElementById("mouseover").innerHTML="GitHub"
+}
+
+//select using event
+
+function ClickmeEvent(e) {
+    e.target.innerHTML = "i have been clicked"
+}
+
+document.getElementById("clickEvent").addEventListener("click", ()=> {
+    alert("hi how are you")
+  });

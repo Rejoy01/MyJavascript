@@ -26,10 +26,10 @@
             <!-- <label for="fname">Name</label> -->
             <!--Instead of labels-->
               <!--constrain validation-->
-            Fullname: <input type="text" name="fname" maxlength="10"><br>
+            Fullname: <input type="text" id="text" placeholder="valid so it has green borders" value="" maxlength="10"><br>
             <span id="emptyName" style="color: red;"></span> <br>
             <!-- <label for="email">Email</label> -->
-            Email: <input type="email" name="email" ><br>
+            Email: <input type="email" name="email" value="expecting mailId we passing string so red border" ><br>
             <span id="emptyEmail" style="color: red;"></span> <br>
           
             Phone Number : <input type="number" name="phoneNumber" required><br>
@@ -45,9 +45,20 @@
 
         <span id="Welcome" style="color: green;"></span> <br>
 
-        
+        <ul>
+            <li>amazon</li>
+            <li>facebook</li>
+            <li>flipkart</li>
+            <li>google</li>
+            <li id="mouseover" onmouseover="Mouseover()">zoho</li>
+        </ul>
+        <p id="change" onclick="Clickme()" >click me to change para</p>
+        <p id="change" onclick="ClickmeEvent(event)" >i will change whne clicked</p>
 
-        <script src="./index.js"></script>
+        <button id="clickEvent">click me !</button>
+
+        
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
