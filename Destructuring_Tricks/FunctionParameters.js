@@ -14,6 +14,12 @@ function CreateInc({id , message}){
 
 CreateInc({id :"INC123", message :"System Issue"})
 
+function CreateEmp({id,name}){
+     console.log(id);
+}
+
+CreateEmp({id : "INC111"})
+
 
 
 
