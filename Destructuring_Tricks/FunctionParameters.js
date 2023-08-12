@@ -20,7 +20,10 @@ function CreateEmp({id,name}){
 
 CreateEmp({id : "INC111"})
 
-
+function CreateCar({model, brand}){
+     console.log(model);
+}
+CreateCar({model:"SWift"})
 
 
 
