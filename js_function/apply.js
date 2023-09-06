@@ -12,4 +12,11 @@ const person1 = {
     lastName:"Doe"
 }
 
+const person2 = {
+  firstName :"Rejo",
+  lastName:"Wilson"
+}
+
 console.log( Person.fullName.apply(person1, ["Oslo", "Norway"]));
+
+console.log(Person.fullName.apply(person2,["kochi","India"]));
