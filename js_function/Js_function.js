@@ -17,7 +17,7 @@ function sum(...args) {
     return sum;
   }
   
-  let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
+let x = sum(4, 9, 16, 25, 29, 100, 66, 77);
 
 // Argument object 
 // javascript functions have a built-in object called the arguments object 
