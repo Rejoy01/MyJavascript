@@ -24,10 +24,10 @@ promise().then((result)=>{
     console.log(err.message);
 })
 
-// fetch("https://jsonplaceholder.typicode.com/users")
-// .then((data)=>data.json())
-// .then((users)=> console.log(users))
-// .catch((err)=>console.log(err.message));
+fetch("https://jsonplaceholder.typicode.com/users")
+.then((data)=>data.json())
+.then((users)=> console.log(users))
+.catch((err)=>console.log(err.message));
 
 // console.log(users.name);
 

@@ -1,1 +1,1 @@
-Array.isArray(fruits)
+fruits.toString()

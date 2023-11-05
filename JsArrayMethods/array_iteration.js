@@ -86,11 +86,12 @@ let NUm = [10,20,30,40]
 
 let FIndres = NUm.findIndex((num)=> num > 20)
 
+console.log("/////finders/////");
 console.log(FIndres);
 
 //Every Method()
 // check every element if condition is true for every element return true
-const a = [1,2,3,4,5,];
+const a = [1,2,3,4,5,6];
 
 if (a.every((x)=>x<7)){
   console.log("less than 7");

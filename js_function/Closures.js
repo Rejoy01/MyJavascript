@@ -28,4 +28,3 @@ console.log(add());
 // promise.any()
 // promise.all()
 
-l

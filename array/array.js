@@ -25,7 +25,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 // accessing last element of array
 
-console.log(fruits[fruits.length-1]);
+// console.log(fruits[fruits.length-1]);
 
 
 
@@ -45,4 +45,13 @@ console.log(typeof(fruits));
 // typeof returns value as object type
 
 // to slove that
-Array.isArray(fruits)
+// Array.isArray(fruits)  return true
+
+const ConvrtToStr = fruits.toString()
+
+console.log("str",ConvrtToStr);
+
+// join method also join all array element into string
+let str = fruits.join("-");
+console.log(str);
+// Banana-Orange-Apple-Mango-Guvi
