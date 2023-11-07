@@ -3,6 +3,13 @@
 // declare class variables/attributes as private
 // provide public get and set methods to access and update the value of a private variable
 
+// In JavaScript, encapsulation can be implemented using various techniques such as:
+
+// Closures: Hiding variables within a function scope to achieve data privacy.
+// Private variables: Using functions to create private variables that are inaccessible from outside the function.
+// Accessors (getters and setters): Controlling access to object properties through methods.
+
+
 class MyClass{
     #privateField = 10;
 
