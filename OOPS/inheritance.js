@@ -25,3 +25,13 @@ class Car {
   
   let myCar = new Model("Ford", "Mustang");
   document.getElementById("demo").innerHTML = myCar.show();
+
+  class NewCar {
+    constructor(brand) {
+      this.carname = brand;
+    }
+    present() {
+      return 'I have a ' + this.carname;
+    }
+  }
+  
