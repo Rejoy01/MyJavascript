@@ -22,6 +22,13 @@ boat.start = function(){
     return "Boat motor starting...";
 }
 
+const boat2  = Object.create(vehicle)
+
+boat2.start = function(){
+    return "Boat motor starting...";
+}
+
+
 // Using polymorphism
 console.log(car.start()); // Output: "Car engine starting..."
 console.log(boat.start()); // Output: "Boat motor starting..."
