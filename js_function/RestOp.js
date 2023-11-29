@@ -20,6 +20,12 @@ sub(1,2,3,4,5)
 let arr = [20,30,60,10,22]
 
 let res = Math.max(...arr)
+
+let arr1 = [20,30,100,120]
+
+let res1 = Math.min(...arr1)
+
+console.log(res1);
 // spread operator allow us to call elements seperately
 
 console.log(res);
