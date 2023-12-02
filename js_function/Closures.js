@@ -23,6 +23,7 @@ const add = (function () {
 console.log(add());  
 console.log(add());  
 console.log(add());  
+console.log(add());  
   
 
 // promise.any()
