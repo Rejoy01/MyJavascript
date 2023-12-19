@@ -16,3 +16,4 @@ function MultiplyByTwo(n) {
 MultiplyByTwo(3);
 MultiplyByTwo(5);
 MultiplyByTwo(3);
+MultiplyByTwo(4);
