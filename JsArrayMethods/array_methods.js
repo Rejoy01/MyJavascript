@@ -120,3 +120,16 @@ console.log(newArray);// [ 100, 24, 5, 4 ]
 console.log(st1);// [ 1, 24, 5, 4 ]
 // spread operator
 
+
+const months = ["Jan", "Feb", "Mar", "Apr"];
+
+const sorted = months.sort()
+
+console.log(sorted);
+console.log(months);
+
+const points = [40, 100, 1, 5, 25, 10];
+
+points.sort(function(a,b){return a-b})
+
+console.log(points);
