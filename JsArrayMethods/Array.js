@@ -44,3 +44,6 @@ fruits.splice(2, 0, "Lemon", "Kiwi");
 
 const fruits2 = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 const citrus = fruits2.slice(1, 3);
+
+const fruits3 = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus1 = fruits3.slice(1, 3);
