@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="DisplayMessage()">
+    <h1>
+        HTML Events
+    </h1>
+    <p>click the button to display time</p>
+    <button onclick="DisplayDate()">Click Me</button>
+    <p  id="demo"></p>
+
+    <p  id="load"> </p>
+
+    <script>
+        function DisplayDate() {
+            document.getElementById("demo").innerHTML = Date()
+        }
+        function DisplayMessage() {
+            alert("Welcome Home")
+        }
+    </script>
+
+</body>
+</html>
